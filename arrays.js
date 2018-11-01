@@ -12,7 +12,7 @@ return chocolateBars
 }
 
 function addElementToEndOfArray(chocolateBars, candyString) {
-  [chocolateBars, ...candyString
+  [chocolateBars, ...candyString]
   chocolateBars = [chocolateBars, ...candyString]
   return chocolateBars
 }
