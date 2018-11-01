@@ -1,2 +1,7 @@
 var chocolateBars = [`snickers`, `hundred grand`, `kitkat`, and `skittles`];
-console.log(chocolateBars)
+var candyString = "foo"
+
+function addElementToBeginningOfArray(chocolateBars, candyString) {
+  ["foo", ...chocolateBars]
+  return chocolateBars
+}
