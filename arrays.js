@@ -25,12 +25,13 @@ function accessElementInArray(chocolateBars,index) {
 console.log(chocolateBars[3])
 }
 
-function removeElementFromEndOfArray(chocolateBars) {
-  chocolateBars.shift(3)
+function destructivelyRemoveElementFromBeginningOfArray(chocolateBars) {
+chocolateBars.shift(1)
+chocolateBars
+}
+function removeElementFromBeginningOfArray(chocolateBars) {
+  chocolateBars.slice(1)
   chocolateBars
 }
 
-function destructivelyRemoveElementFromBeginningOfArray(chocolateBars) {
-chocolateBars.slice(0)
-chocolateBars
-}
+ 
