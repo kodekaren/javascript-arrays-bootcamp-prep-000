@@ -15,11 +15,11 @@ function addElementToEndOfArray(chocolateBars, candyString) {
 }
 
 function destructivelyAddElementToEndOfArray(chocolateBars, candyString) {
-  return chocolateBars.unshift(candyString)
+  return chocolateBars.push(candyString)
 }
 
 function accessElementInArray(chocolateBars,index) {
-console.log(chocolateBars[index])
+return (chocolateBars[index])
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(chocolateBars) {
