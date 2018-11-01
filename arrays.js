@@ -31,6 +31,6 @@ function removeElementFromEndOfArray(chocolateBars, candyString) {
 }
 
 function destructivelyRemoveElementFromEndOfArray(chocolateBars,candyString) {
-chocolateBars.slice()
+chocolateBars.slice(3)
 chocolatebars
 }
