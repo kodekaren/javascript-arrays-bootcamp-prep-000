@@ -10,4 +10,3 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, candyString) {
 chocolateBars.unshift("foo")
 return chocolateBars
 }
-
