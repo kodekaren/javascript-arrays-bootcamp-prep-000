@@ -11,7 +11,7 @@ return chocolateBars
 }
 
 function addElementToEndOfArray(chocolateBars, candyString) {
-  return [chocolateBars, ...candyString]
+  return [chocolateBars ..., candyString]
 }
 
 function destructivelyAddElementToEndOfArray(chocolateBars, candyString) {
