@@ -24,7 +24,8 @@ return (chocolateBars[index])
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(chocolateBars) {
-return chocolateBars.shift(1)
+chocolateBars.shift(1)
+return chocolateBars
 }
 
 function removeElementFromBeginningOfArray(chocolateBars) {
