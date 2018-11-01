@@ -30,8 +30,6 @@ chocolateBars.shift(1)
 chocolateBars
 }
 function removeElementFromBeginningOfArray(chocolateBars) {
-  chocolateBars.slice(1)
+  chocolateBars = chocolateBars.slice(1)
   chocolateBars
 }
-
- 
