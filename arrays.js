@@ -29,5 +29,3 @@ function destructivelyRemoveElementFromEndOfArray(chocolateBars,candyString) {
 chocolateBars.shift()
 chocolatebars
 }
-
-
