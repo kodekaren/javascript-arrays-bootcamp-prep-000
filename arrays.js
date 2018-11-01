@@ -26,7 +26,7 @@ console.log(chocolateBars[3])
 }
 
 function removeElementFromEndOfArray(chocolateBars, candyString) {
-  chocolatebars.shift()
+  chocolatebars.shift(3)
   chocolatebars
 }
 
