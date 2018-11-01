@@ -23,7 +23,7 @@ function destructivelyAddElementToEndOfArray(chocolateBars, candyString) {
 }
 
 function accessElementInArray(chocolateBars,index) {
-console.log(chocolateBars[3])
+console.log(chocolateBars[index])
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(chocolateBars) {
