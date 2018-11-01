@@ -24,3 +24,10 @@ function destructivelyAddElementToEndOfArray(chocolateBars, candyString) {
 function accessElementInArray(chocolateBars, index) {
 console.log(chocolateBars[3])
 }
+
+function destructivelyRemoveElementFromEndOfArray(chocolateBars,candyString) {
+chocolateBars.shift()
+chocolatebars
+}
+
+
