@@ -28,8 +28,8 @@ console.log(chocolateBars[3])
 function removeElementFromEndOfArray(chocolateBars, candyString) {
   chocolatebars.shift()
   chocolatebars
-  
 }
+
 function destructivelyRemoveElementFromEndOfArray(chocolateBars,candyString) {
 chocolateBars.slice()
 chocolatebars
